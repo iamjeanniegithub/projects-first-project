@@ -51,7 +51,8 @@ export default class HomeScreen extends React.Component {
               are terminated then try again. If it still fails, a git process
               may have crashed in this repository earlier:
               remove the file manually to continue.....................................................
-
+              keep goin like This
+              1
             </Text>
           </View>
 
@@ -66,7 +67,8 @@ export default class HomeScreen extends React.Component {
           <Text style={styles.tabBarInfoText}>This is a tab bar. You can edit it in:</Text>
 
           <View style={[styles.codeHighlightContainer, styles.navigationFilename]}>
-            <MonoText style={styles.codeHighlightText}>navigation/MainTabNavigator.js</MonoText>
+            <MonoText style
+            ={styles.codeHighlightText}>navigation/MainTabNavigator.js</MonoText>
           </View>
         </View>
       </View>
